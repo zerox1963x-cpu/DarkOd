@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>777 BIG WIN - Prediction</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>777 BIG WIN</h1>
+</header>
+
+<div class="input-section">
+  Enter Period Number (5 digits):
+  <input type="text" id="periodInput" maxlength="5" placeholder="12345">
+  <button id="predictBtn">Predict</button>
+</div>
+
+<div class="prediction">
+  <h2>AI Prediction</h2>
+  <div id="predictedNumber" class="prediction-number">--</div>
+  <div id="predictedBS" class="prediction-bs">Big/Small: --</div>
+  <div id="predictedWinLose" class="prediction-winlose">Win: -- | Lose: --</div>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th>Period</th>
+      <th>Number</th>
+      <th>Big/Small</th>
+      <th>Win %</th>
+      <th>Lose %</th>
+    </tr>
+  </thead>
+  <tbody id="historyBody">
+    <!-- History rows appear here -->
+  </tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
